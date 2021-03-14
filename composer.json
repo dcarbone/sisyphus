@@ -1,0 +1,27 @@
+{
+    "name": "dcarbone/sisyphus",
+    "description": "XSD to PHP Class parser that will never be finished.",
+    "homepage": "https://github.com/dcarbone/sisyphus",
+
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Daniel Paul Carbone",
+            "email": "daniel.p.carbone@gmail.com"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.3.3",
+        "lib-libxml": "*",
+
+        "myclabs/php-enum": "1.4.*",
+        "dcarbone/php-xml-facets": "@dev"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Sisyphus": "src/"
+        }
+    }
+}
